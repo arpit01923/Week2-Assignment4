@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+}
+.container{
+    background-color: blueviolet;
+    display: flex;
+    padding: 1rem; 
+    justify-content: space-between;
+}
+.div1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1 span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.div2{
+    display: flex;
+}
+.div2 img{
+    width: 1.5rem;
+    margin-left: 1rem;
+}
