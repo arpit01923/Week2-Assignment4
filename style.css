@@ -5,26 +5,250 @@
 }
 body{
     font-size: 62.5%;
+    background-color: thistle;
 }
-.container{
+
+/* Standard */
+.container1{
+    background-color: blueviolet;
+    display: flex;
+    padding: 1.5rem; 
+    justify-content: space-between;
+}
+
+.container1 .div1 .fa-bars{
+    font-size: 1.5rem;
+    color: white;
+}
+.container1 .div1 span{
+    font-size: 1.5rem;
+    padding-left: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.container1 .div2 .fa-download{
+    font-size: 1.5rem;
+    padding-right: 30px;
+    color: white;
+}
+.container1 .div2 .fa-print{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 30px;
+}
+.container1 .div2 .fa-bookmark{
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Short */
+.container2{
     background-color: blueviolet;
     display: flex;
     padding: 1rem; 
     justify-content: space-between;
 }
-.div1{
-    display: flex;
-    flex-wrap: wrap;
-}
-.div1 span{
+
+.container2 .div1 .fa-bars{
     font-size: 1.5rem;
+    color: white;
+}
+.container2 .div1 span{
+    font-size: 1.5rem;
+    padding-left: 30px;
     font-weight: bold;
-    margin-left: 1rem;
+    color: white;
 }
-.div2{
+
+.container2 .div2 .fa-download{
+    display: none;
+}
+.container2 .div2 .fa-print{
+    display: none;
+}
+.container2 .div2 .fa-bookmark{
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Short and Always Collapsed */
+.container3{
+    background-color: blueviolet;
+    width: 10%;
     display: flex;
+    padding: 1rem; 
+    border-radius: 0 0 1.5rem 0;
 }
-.div2 img{
-    width: 1.5rem;
-    margin-left: 1rem;
+
+.container3 .div1 .fa-bars{
+    font-size: 1.5rem;
+    color: white;
+    padding-right: 20px;
+}
+.container3 .div1 span{
+    display: none;
+}
+
+.container3 .div2 .fa-download{
+    display: none;
+}
+.container3 .div2 .fa-print{
+    display: none;
+}
+.container3 .div2 .fa-bookmark{
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Prominent */
+.container4{
+    background-color: blueviolet;
+    display: flex;
+    height: 25vh;
+    padding: 1.5rem; 
+    position: relative;
+    justify-content: space-between;
+}
+
+.container4 .div1 .fa-bars{
+    font-size: 1.5rem;
+    color: white;
+}
+.container4 .div1 span{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    gap: 100px;
+    font-size: 1.5rem;
+    padding-left: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.container4 .div2 .fa-download{
+    font-size: 1.5rem;
+    padding-right: 30px;
+    color: white;
+}
+.container4 .div2 .fa-print{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 30px;
+}
+.container4 .div2 .fa-bookmark{
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Prominent and Dense */
+.container5{
+    background-color: blueviolet;
+    display: flex;
+    height: 20vh;
+    padding: 1.5rem; 
+    position: relative;
+    justify-content: space-between;
+}
+
+.container5 .div1 .fa-bars{
+    font-size: 1.5rem;
+    color: white;
+}
+.container5 .div1 span{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    gap: 100px;
+    font-size: 1.5rem;
+    padding-left: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.container5 .div2 .fa-download{
+    font-size: 1.5rem;
+    padding-right: 30px;
+    color: white;
+}
+.container5 .div2 .fa-print{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 30px;
+}
+.container5 .div2 .fa-bookmark{
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Fixed */
+.container6{
+    background-color: blueviolet;
+    display: flex;
+    width: 100%;
+    padding: 1.5rem;
+    position: fixed; 
+    justify-content: space-between;
+}
+
+.container6 .div1 .fa-bars{
+    font-size: 1.5rem;
+    color: white;
+}
+.container6 .div1 span{
+    font-size: 1.5rem;
+    padding-left: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.container6 .div2 .fa-download{
+    font-size: 1.5rem;
+    padding-right: 30px;
+    color: white;
+}
+.container6 .div2 .fa-print{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 30px;
+}
+.container6 .div2 .fa-bookmark{
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Dense */
+.container7{
+    background-color: yellow;
+    display: flex;
+    padding: 1.5rem; 
+    justify-content: space-between;
+}
+
+.container7 .div1 .fa-bars{
+    font-size: 1.5rem;
+    color: white;
+}
+.container7 .div1 span{
+    font-size: 1.5rem;
+    padding-left: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.container7 .div2 .fa-download{
+    font-size: 1.5rem;
+    padding-right: 30px;
+    color: white;
+}
+.container7 .div2 .fa-print{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 30px;
+}
+.container7 .div2 .fa-bookmark{
+    color: white;
+    font-size: 1.5rem;
 }
